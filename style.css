@@ -23,7 +23,7 @@ h1{
 }
 .link-button{
     text-decoration: none;
-    background-color: rgb(0, 181, 253);
+    background-image: linear-gradient(skyblue, darkblue);
     padding: 8px 20px;
     color: black;
     border-radius: 5px;
@@ -45,6 +45,7 @@ h1{
     background-position: bottom right;
     background-size: 120px;
     display: flex;
+    margin-bottom: 150px;
 
 }
 .half{
@@ -55,3 +56,40 @@ h1{
     width: 85%;
     
 }
+.last{
+    display: flex;
+   
+} 
+.experience-area{
+    margin-bottom: 150px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left ;
+    background-size: 100px;
+   
+}
+.experience-item{
+    box-shadow: 10px 10px 40px  gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    padding-right: 10px;
+    text-align: justify;
+    border-radius: 8px;
+    
+}
+h2{
+    font-size: 40px;
+}
+#border-clr{
+    border-left: 7px solid;
+    border-image: linear-gradient(purple, skyblue);
+    border-image-slice: 1;
+}
+#clr-border{
+    border-left: 7px solid;
+    border-image: linear-gradient(red, yellow);
+    border-image-slice: 1;
+}
+    
